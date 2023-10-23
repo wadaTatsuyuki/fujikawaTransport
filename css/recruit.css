@@ -1,0 +1,652 @@
+/*リクルートはじまり*/
+.hero-con-r{
+    position: absolute;
+    bottom: 105px;
+    left: 10%;
+    color: #fff;
+    font-size: 2.5rem;
+	font-family: 'ＭＳ 明朝', 'MS Mincho','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+
+.p-rec-side_r_nav01 {
+    background: url(../images/sidemenu_icon/yajirusi_midori.png) no-repeat right center;
+  
+  }
+.p-rec-side_r_nav02 {
+    background: url(../images/sidemenu_icon/home_aka.png) no-repeat right center;
+  }
+  
+  .p-rec-side_r_nav03 {
+    background: url(../images/sidemenu_icon/rogo_aka.png) no-repeat right center;
+  }
+  
+  .p-rec-side_r_nav04 {
+    background: url(../images/sidemenu_icon/herume_aka.png) no-repeat right center;
+  }
+  
+  .p-rec-side_r_nav05 {
+    background: url(../images/sidemenu_icon/hito_midori.png) no-repeat right center;
+  }
+  
+  .p-rec-side_r_nav06 {
+    background: url(../images/sidemenu_icon/mati_midori.png) no-repeat right center;
+  }
+  
+  .p-rec-side_r_nav07 {
+    background: url(../images/sidemenu_icon/akushu_midori.png) no-repeat right center;
+  }
+  
+  .p-rec-side_r_nav08 {
+    background: url(../images/sidemenu_icon/denwa_midori.png) no-repeat right center;
+  }
+
+u {
+    font-size: 1.5rem;
+    margin: 0 2px 0 2px;
+  color: rgb(45, 45, 45);
+    text-decoration: none;
+}
+.hiroshima-con1-title-p span,.kanto-con1-title-p span{
+    color: rgb(45, 45, 45);
+    background: none;
+    font-size: 1.5rem;
+}
+.work-about dd{
+    color: rgb(45, 45, 45);
+}
+
+.people1 {
+    background-color: #8FBf99;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.people2 {
+    background-color: #F2BF84;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.people1,
+.people2 {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.people-q {
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: solid 1px;
+    border-color: #fff;
+}
+
+.q-first {
+    margin-top: 40px;
+}
+
+.people-img {
+    position: absolute;
+    max-width: 100px;
+    top: -50px;
+    left: 40%;
+    border-radius: 50%;
+}
+
+.people1 .people-img {
+    border: solid 5px #8FBf99;
+}
+
+.people2 .people-img {
+    border: solid 5px #F2BF84;
+}
+
+#rec {
+    margin: 0 auto;
+}
+
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 80px auto;
+
+}
+
+h3 {
+    text-align: center;
+    margin: 100px 0px auto;
+    font-size: 25px;
+}
+
+.work-con-safe {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+.work-con-safe-1 {
+    width: 66%;
+}
+
+.work-con-safe-title {
+    border-bottom: solid 1px #8FBf99;
+    width: 14em;
+    margin: 0 auto;
+
+}
+
+.work-con-safe-2 {
+    width: 250px;
+}
+
+.line3 {
+    width: 160px;
+    margin: 5px auto 100px auto;
+    position: relative;
+    border-bottom: 3px solid #8FBf99;
+}
+
+.line3:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 50%;
+    height: inherit;
+    border-bottom: 3px solid #F2BF84;
+}
+
+.work-con-safe-text {
+    width: 400px;
+}
+
+.work-con2-img {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.flex {
+    flex: 1;
+    width: 30%;
+}
+
+.recruit-message {
+    width: 900px;
+    margin: 50px auto;
+}
+
+.recruit-message {
+    margin: 80px auto;
+}
+
+.rec-con p {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #8FBF99;
+    margin-bottom: 20px;
+}
+
+.hiroshima p,
+.kanto p {
+    text-align: center;
+}
+
+.hiroshima-con1,
+.kanto-con1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1160px;
+    padding: 20px 20px 20px 0px;
+    height: auto;
+    margin-left: calc((100% - 1200px));
+
+}
+
+.recruit-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recruit-img img {
+    display: block;
+    width: 75%;
+}
+
+.sp-img {
+    display: none;
+}
+
+
+
+.hiroshima-con2,
+.kanto-con2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 20px 0px 20px 20px;
+    width: 1160px;
+    margin-right: calc((100% - 1200px));
+}
+
+.hiroshima-con1-title,
+.kanto-con1-title,
+.hiroshima-con2-title,
+.kanto-con2-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+}
+
+.hiroshima-con1-title img,
+.kanto-con1-title img {
+    width: 200px;
+    position: relative;
+    top: -150px;
+    left: 350px;
+}
+
+.hiroshima,
+.kanto {
+    margin-top: 100px;
+}
+
+
+.recruit-wrap-green {
+    background-color: #8FBF99;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 40px;
+    opacity: 0.8;
+    width: calc(100% - ((100% - 1200px) / 2));
+
+}
+
+.recruit-wrap-orange {
+    background-color: #F2BF84;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 40px;
+    opacity: 0.8;
+    margin-left: calc(((100% - 1200px) / 2));
+    width: calc(100% - ((100% - 1200px) / 2));
+
+}
+
+.graph img {
+    display: block;
+    margin: 80px auto 0px auto;
+    width: 92%;
+}
+
+/* 問い合わせフォーム */
+
+form {
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 100px;
+}
+
+
+.entry {
+    text-align: center;
+    border: solid #8FBF99 2px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1.25rem;
+    width: 200px;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+#name,
+#phone,
+#email {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+input {
+    margin-bottom: 50px;
+}
+
+label {
+    display: block;
+    width: 200px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-item {
+    width: 500px;
+}
+
+.form-submit {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+textarea{
+    margin: 70px auto 0px;
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #8FBf99;
+    border: none;
+    border-radius: 3px;
+    color: #F8F7FA;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+input[type="submit"]:hover {
+    background-color: #8FBf99;
+    border-bottom: 2px solid #6d9a76;
+    margin-top: 3px;
+}
+
+.recruit-dl {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -150px;
+}
+
+.work-about dt {
+    font-size: large;
+    color: #303030;
+    display: inline;
+    padding: 0px 15px;
+    border-left: solid 10px #F8F7FA;
+    border-bottom: solid 2px #F8F7FA;
+
+}
+
+.work-about dd{
+    margin: 0 ;
+}
+.work-about {
+    margin-bottom: 20px;
+
+}
+
+.rec-text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.rec-text dl {
+    display: flex;
+    justify-content: center;
+}
+
+.rec-text dt {
+    width: 4em;
+    text-align: right;
+}
+
+.rec-text dd {
+    width: 26em;
+    text-align: left;
+    color: rgb(45, 45, 45);
+}
+
+.shoshinsya img {
+    width: 150px;
+    height: 150px;
+    z-index: -100;
+    right: 300px;
+    position: relative;
+    top: -150px;
+    transform: rotate(-35deg);
+}
+
+@media screen and (max-width: 1520px) {
+
+    .hiroshima-con1-title img,
+    .kanto-con1-title img {
+        left: 250px;
+    }
+
+    .shoshinsya img {
+        right: 200px;
+    }
+
+}
+
+@media screen and (max-width:1320px) {
+
+    .hiroshima-con1-title img,
+    .kanto-con1-title img {
+        left: 205px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .recruit-wrap-green,
+    .recruit-wrap-orange {
+        width: calc(100% - ((100% - 960px) / 2));
+    }
+
+    .recruit-wrap-orange {
+        margin-left: calc(((100% - 960px) / 2));
+    }
+
+    .hiroshima-con1,
+    .kanto-con1 {
+        width: 900px;
+        margin-left: calc((100% - 960px));
+    }
+
+    .hiroshima-con2,
+    .kanto-con2 {
+        width: 900px;
+        margin-right: calc((100% - 960px));
+    }
+
+    .shoshinsya img {
+        right: 150px;
+
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    .hiroshima-con1-title img,
+    .kanto-con1-title img {
+        width: 150px;
+        left: 185px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+
+    .hiroshima-con1 .pc-img,
+    .hiroshima-con2 .pc-img,
+    .kanto-con1 .pc-img,
+    .kanto-con2 .pc-img {
+        display: none;
+    }
+
+    .hiroshima-con1-title,
+    .kanto-con1-title,
+    .hiroshima-con2-title,
+    .kanto-con2-title {
+        width: 100%;
+    }
+
+
+    .people {
+        display: block;
+    }
+
+    .people1,
+    .people2 {
+        width: 100%;
+    }
+
+    .people2 {
+        margin-top: 80px;
+    }
+
+    .people img {
+        left: calc((100% / 2) - 50px);
+    }
+
+    .recruit-wrap-green,
+    .recruit-wrap-orange {
+        width: 100%;
+    }
+
+    .rec-con p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .work-con-safe {
+        flex-direction: column-reverse;
+    }
+
+
+    .work-con-safe img {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+
+    .work-con-safe-1 {
+        width: 80%;
+    }
+
+    .work-con2-img {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .work-con2-img img {
+        width: 50%;
+    }
+
+    .hiroshima-con1,
+    .kanto-con1 {
+        width: 100%;
+    }
+
+    .hiroshima-con1,
+    .kanto-con1,
+    .hiroshima-con2,
+    .kanto-con2 {
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .sp-img {
+        display: flex;
+    }
+
+    .sp-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hiroshima-con1-title img,
+    .kanto-con1-title img {
+        position: initial;
+
+    }
+
+    .recruit-wrap-orange {
+        margin-left: 0px;
+    }
+
+    .hiroshima-con1-title {
+        width: 100%;
+    }
+
+
+
+    .recruit-dl {
+        margin-top: 0px;
+    }
+
+    .shoshinsya img {
+        display: none;
+    }
+
+    .hiroshima-con2,
+    .kanto-con2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .recruit-message {
+        width: 90%;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 98%;
+        margin-top: 100px;
+    }
+
+    label {
+        width: 20%;
+    }
+
+    .form-item {
+        width: 70%;
+    }
+   
+}
+
+
+
+
+@media screen and (max-width: 512px) {
+    .rec-text dl{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .rec-text dd{
+        margin: 0 0 0 15px ;
+    }
+    .rec-text dt{
+        text-align: left;
+    }}
+
+/*リクルート終わり*/

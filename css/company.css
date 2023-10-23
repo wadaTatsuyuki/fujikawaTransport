@@ -1,0 +1,520 @@
+/*company*/
+.p-rec-side_c_nav01 {
+    background: url(../images/sidemenu_icon/yajirusi_midori.png) no-repeat right center;
+}
+
+.p-rec-side_c_nav02 {
+    background: url(../images/sidemenu_icon/home_aka.png) no-repeat right center;
+}
+
+.p-rec-side_c_nav03 {
+    background: url(../images/sidemenu_icon/rogo_midori.png) no-repeat right center;
+}
+
+.p-rec-side_c_nav04 {
+    background: url(../images/sidemenu_icon/karenda_midori.png) no-repeat right center;
+}
+
+.p-rec-side_c_nav05 {
+    background: url(../images/sidemenu_icon/hito2_midori.png) no-repeat right center;
+}
+
+.p-rec-side_c_nav06 {
+    background: url(../images/sidemenu_icon/map_midori.png) no-repeat right center;
+}
+
+.p-rec-side_c_nav07 {
+    background: url(../images/sidemenu_icon/herume_aka.png) no-repeat right center;
+}
+
+.p-rec-side_c_nav08 {
+    background: url(../images/sidemenu_icon/akusyu_aka.png) no-repeat right center;
+}
+
+.p-rec-side_c_nav09 {
+    background: url(../images/sidemenu_icon/denwa_midori.png) no-repeat right center;
+}
+
+
+.company-con1 {
+    max-width: 900px;
+    margin: 100px auto;
+
+}
+
+.company-con2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.company2-img {
+    width: 400px;
+}
+
+h5 {
+    font-size: 1.25rem;
+    text-align: center;
+    border-bottom: solid 2px #8FBf99;
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.overview-con {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 340px;
+}
+
+.overview-con dt {
+    width: 80px;
+    text-align: right;
+}
+
+.overview-con dd {
+    width: 240px;
+    margin-left: 10px;
+}
+
+.company-con2r {
+    margin-left: 15%;
+}
+
+.company-con3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.company-title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 50px 50px 0 50px;
+    border-left: solid 10px #F2BF84;
+    border-bottom: solid 2px #F2BF84;
+}
+
+.company-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.com-3-1,
+.com-3-2,
+.com-3-3 {
+    width: 30%;
+}
+
+.history-img {
+    display: none;
+}
+
+.history-con {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.history-con dt {
+    width: 120px;
+    text-align: right;
+}
+
+.history-con dd {
+    width: 400px;
+    margin-left: 10px;
+}
+
+.president {
+    width: 80%;
+    margin: 100px auto;
+}
+
+/* ここまでcompany */
+.president-name {
+    text-align: right;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.history-all {
+    background-image: url(../images/img/yubisasih-dai.jpg);
+    width: 95%;
+    padding: 0 0 200px 30px;
+    margin: 0 auto 20px auto;
+    background-size: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.honsha-con,
+.shiten-con {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.honsha-con dt,
+.shiten-con dt {
+    width: 80px;
+    text-align: right;
+}
+
+.honsha-con dd,
+.shiten-con dd {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.office {
+    width: 100%;
+}
+
+.office-h {
+    border: solid 2px #8FBf99;
+    width: 330px;
+    margin-top: 80px;
+    z-index: 1000;
+    position: relative;
+}
+
+.office-s {
+    border: solid 2px #F2BF84;
+    width: 330px;
+    margin-top: 80px;
+    z-index: 1000;
+    position: relative;
+}
+
+
+.office-title {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.fixed-bg {
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.honsha-img {
+    background-image: url(../images/img/hiroshima.jpg);
+    position: relative;
+    width: 100%;
+}
+
+.shiten-img {
+    background-image: url(../images/img/kanto.jpg);
+    position: relative;
+    width: 100%;
+}
+
+.map iframe {
+    width: 700px;
+    height: 450px;
+}
+
+.mapwrap {
+    display: flex;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.jpmap-none {
+    display: none;
+}
+
+.jpmap {
+    width: 300px;
+    padding-top: 150px;
+}
+
+.jpmap img {
+    width: 300px;
+    height: auto;
+}
+
+
+.office-main {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.shiten {
+    margin-bottom: 50px;
+}
+.map-m-box{
+    display: none;
+}
+
+/* 賞状 */
+.com-container {
+    max-width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/* スライダーのwrapper */
+.infinite-slider .swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+/* スライド */
+.infinite-slider .swiper-slide {
+    height: 320px !important;
+    /* 高さを指定 */
+    width: auto !important;
+}
+
+/* スライド内の画像 */
+.infinite-slider .swiper-slide img {
+    width: auto;
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .office-main {
+        width: 960px;
+        margin: 50px auto;
+    }
+
+    .map iframe {
+        width: 660px;
+
+    }
+}
+
+@media screen and (max-width: 959px) {
+
+    .map iframe {
+        width: 100%;
+    }
+
+    h5 {
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 13% 0 5% 0;
+    }
+
+    /* overview始まり */
+
+    .company-con1 {
+        margin: 3%;
+    }
+
+    .overview-con {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        width: 340px;
+    }
+
+    .overview-con dt {
+        text-align: right;
+    }
+
+    .overview-con dd {
+        margin-left: 20px;
+    }
+
+    /* overview終わり */
+
+    .company-con2 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .company-con2l img {
+        width: 100%;
+    }
+
+    .company-con2r {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* company-con3始まり */
+    .company-con3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .company-title,
+    .company-text {
+        margin: 5%;
+    }
+
+    .company-title {
+        text-align: left;
+        font-size: 1rem;
+        padding-left: 7px;
+        border-left: solid 10px #F2BF84;
+        border-bottom: solid 2px #F2BF84;
+    }
+
+    .company-text {
+        text-align: left;
+        padding-left: 3px;
+    }
+
+    .com-3-1,
+    .com-3-2,
+    .com-3-3 {
+        width: 100%;
+    }
+
+    .history-all {
+        width: 100%;
+        padding: 0;
+        background-image: none;
+    }
+
+    .history-img {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #history {
+        width: 100%;
+    }
+
+    .history-con {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        background-image: none;
+        margin: 0 auto;
+        justify-content: space-evenly;
+       
+    }
+
+    .history-con {
+        width: 100%;
+
+    }
+
+    .history-con dt {
+        text-align: right;
+        width: 90px;
+    }
+
+    .overview-con dt {
+        text-align: right;
+    }
+
+    .history-con dd {
+
+        width: calc(100% - 100px);
+    }
+
+    /* #president始まり */
+    .president {
+        width: 100%;
+    }
+
+    .office-h,
+    .office-s {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 90px auto 0 auto;
+    }
+
+    .mapwrap {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3%;
+        justify-content: center;
+        align-items: center;
+        margin-top: -150px;
+    }
+
+    .jpmap {
+        padding: 5%;
+        width: 100%;
+        display: block;
+        text-align: right;
+    }
+
+    .jpmap img {
+        width: 40%;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 300px;
+        padding: 0 10%;
+    }
+
+    .fixed-bg {
+        height: 100px;
+    }
+
+    .honsha-con,
+    .shiten-con {
+        width: 280px;
+    }
+
+    .honsha-con dt,
+    .shiten-con dt {
+        width: 50px;
+    }
+
+    .honsha-con dd,
+    .shiten-con dd {
+        width: 220px;
+    }
+
+    .mapwrap {
+        display: block;
+    }
+
+    .m-office {
+        position: relative;
+    }
+
+    .jpmap-none {
+        position: absolute;
+        top: -20px;
+    }
+
+    .office-main {
+        width: 100%;
+    }
+
+    .fixed-bg {
+        display: none;
+    }
+
+    .map-m-box {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .map-m-img {
+        width: 80%;
+    }
+}
